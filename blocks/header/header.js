@@ -166,7 +166,7 @@ export default async function decorate(block) {
 }
 
 document.addEventListener('click', (e) => {
-  const btn1 = e.target.closest('.nav-tools .button-container');
+  const btn1 = e.target.closest('.nav-tools button');
   if (btn1) {
     const menu1 = btn1.closest('.default-content-wrapper').querySelector('ul');
     menu1.classList.add('inactive');
