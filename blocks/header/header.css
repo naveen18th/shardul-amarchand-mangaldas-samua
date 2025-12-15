@@ -13,19 +13,17 @@ body {
     position: relative;
 }
 
-.header .nav-wrapper .nav-brand {}
-
 .header .nav-wrapper .nav-brand p {
     margin: 0;
-}
-
-.nav-brand picture img {
-    height: 90px;
 }
 
 .icon-search img {
     width: 36px;
     height: 36px;
+}
+
+.nav-brand picture img {
+    height: 90px;
 }
 
 .nav-hamburger {
@@ -48,16 +46,14 @@ body {
     background-size: 100%;
 }
 
-nav[aria-expanded="true"] .nav-tools {
-    transform: translateX(0);
-}
-
-nav[aria-expanded="true"] {}
-
 .nav-tools {
     position: absolute !important;
     height: max-content;
     top: 100%;
+}
+
+nav[aria-expanded="true"] .nav-tools {
+    transform: translateX(0);
 }
 
 .nav-tools .default-content-wrapper {
