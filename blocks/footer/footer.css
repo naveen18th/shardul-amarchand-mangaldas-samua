@@ -58,10 +58,7 @@
   color: #cfd6e6;
 }
 
-/* =========================
-   Responsive
-========================= */
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .footer {
     padding: 16px;
   }
@@ -74,3 +71,4 @@
     margin-top: 12px;
   }
 }
+
