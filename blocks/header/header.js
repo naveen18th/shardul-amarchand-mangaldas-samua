@@ -164,3 +164,15 @@ export default async function decorate(block) {
   navWrapper.append(nav);
   block.append(navWrapper);
 }
+
+document.addEventListener('click', (e) => {
+  const btn1 = e.target.closest('.nav-tools .button-container');
+  if (btn1) {
+    const menu1 = btn1.closest('.default-content-wrapper').querySelector('ul');
+    menu1.classList.add('inactive');
+    if (btn1 && menu1) {
+      menu1.classList.toggle('active');
+      menu1.classList.toggle('inactive');
+    }
+  }
+});
