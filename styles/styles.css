@@ -1,6 +1,10 @@
 /* =========================
    Global Content Width
 ========================= */
+body{
+  margin: 0 !important;
+}
+
 main {
   max-width: 1200px;
   margin: 0 auto;
