@@ -8,6 +8,15 @@ main {
 }
 
 /* =========================
+   Left Content Column
+========================= */
+.columns-2-cols h1 {
+  font-size: 28px;
+  color: #0b1f5b;
+  margin-bottom: 16px;
+}
+
+/* =========================
    Page Title
 ========================= */
 .section > .default-content-wrapper h1 {
@@ -17,15 +26,6 @@ main {
   color: #c49a5a; /* gold */
   margin-bottom: 24px;
   position: relative;
-}
-
-/* =========================
-   Left Content Column
-========================= */
-.columns-2-cols h1 {
-  font-size: 28px;
-  color: #0b1f5b;
-  margin-bottom: 16px;
 }
 
 .section > .default-content-wrapper h1::after {
