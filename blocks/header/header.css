@@ -10,6 +10,7 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 16px 32px;
+  display: none;
 }
 
 /* =========================
@@ -80,13 +81,6 @@
 .nav-tools .default-content-wrapper {
   padding: 80px 32px 32px;
 }
-
-/* =========================
-   Hide CTA Button (top)
-========================= */
-/* .nav-tools .button-container {
-  display: none;
-} */
 
 /* =========================
    Menu List
