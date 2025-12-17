@@ -190,7 +190,7 @@ body {
   .header-wrapper {
     background-color: #0b1f5b; /* Deep navy blue */
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 9;
   }
