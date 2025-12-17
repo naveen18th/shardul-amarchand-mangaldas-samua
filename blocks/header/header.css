@@ -195,6 +195,14 @@ body {
     z-index: 9;
   }
 
+  nav[aria-expanded="false"] .nav-tools {
+    right: -100vw;
+  }
+
+   nav[aria-expanded="true"] .nav-tools {
+    right: 0;
+  }
+
   #nav {
     gap: 16px;
   }
