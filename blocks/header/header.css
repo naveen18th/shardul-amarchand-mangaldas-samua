@@ -165,7 +165,7 @@
     background-size: 100%;
 }
 
-nav[aria-expanded="false"] .nav-tools {
+nav[aria-expanded="true"] .nav-tools {
     right: 0;
 }
 
