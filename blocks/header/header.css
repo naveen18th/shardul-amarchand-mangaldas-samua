@@ -54,10 +54,9 @@
    Hamburger Button
 ========================= */
 .nav-tools {
-  right: 0;
+  right: -100vw;
   width: 320px;
   background-color: #0b1f5b; /* Deep navy */
-  transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
   z-index: 1000;
   position: absolute !important;
@@ -67,7 +66,7 @@
 
 /* Open state */
 .nav-tools.active {
-  transform: translateX(0);
+  right: 0;
 }
 
 /* =========================
@@ -166,8 +165,8 @@
     background-size: 100%;
 }
 
-nav[aria-expanded="true"] .nav-tools {
-    transform: translateX(0);
+nav[aria-expanded="false"] .nav-tools {
+    right: 0;
 }
 
 .nav-tools .default-content-wrapper .button-container {
@@ -185,3 +184,6 @@ nav[aria-expanded="true"] .nav-tools {
     outline: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
