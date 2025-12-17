@@ -137,6 +137,15 @@
   #nav {
     gap: 16px;
   }
+
+  .columns-2-cols > div > div:last-child {
+    background: #e6e6e6;
+    padding: 24px;
+    position: relative;
+    flex: 1;
+    height: auto;
+    width: 86%;
+  }
 }
 
 .header .nav-wrapper {
