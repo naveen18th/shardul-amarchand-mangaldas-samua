@@ -140,6 +140,12 @@ main {
    Responsive
 ========================= */
 @media (width <= 900px) {
+  main {
+    max-width: 1200px;
+    margin: 90px auto -25px;
+    padding: 24px;
+  }
+  
   .columns-2-cols > div {
     grid-template-columns: 1fr;
   }
@@ -147,4 +153,5 @@ main {
   .columns-2-cols > div > div:last-child {
     margin-top: 32px;
   }
+  
 }
