@@ -195,6 +195,10 @@ body {
     z-index: 9;
   }
 
+  .nav-tools {
+    top: 113%;
+  }
+
   nav[aria-expanded="false"] .nav-tools {
     right: -100vw;
   }
@@ -215,9 +219,5 @@ body {
     height: auto;
     width: 84%;
     top: -70px;
-  }
-
-  .nav-tools {
-    top: 113%;
   }
 }
