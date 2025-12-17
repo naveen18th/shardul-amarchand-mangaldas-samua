@@ -7,7 +7,7 @@ body{
 
 main {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto -25px;
   padding: 24px;
 }
 
@@ -85,7 +85,7 @@ main {
   background-color: #e5e5e5;
   padding: 24px;
   position: relative;
-  top: -250px;
+  margin-top: 20px;
 }
 
 
